@@ -1,0 +1,34 @@
+body{
+  background-color: #0a0a0a;
+  color:#e0e0e0;
+font-family:'Georgia', sans-serif;
+}
+.card{
+  width:100;
+  background: darkgreen;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba (0, 0, 0, 0.5);
+  border: 1px solid darkgoldenrod;
+}
+h1{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin:0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing{
+  from { width: 0 } to { width: 100%}
+}
+@keyframes blink-caret{
+  from, to { border-color: transparent } 50% { border-color: orange;}
+}
+.edina{
+  width:300px;
+  height: 600px;
+ border-radius: 20px;
+  
+}
+
